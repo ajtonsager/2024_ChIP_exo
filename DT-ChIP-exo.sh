@@ -6,7 +6,7 @@
 #
 # DESCRIPTION:
 # I wrote a very basic script to generate the plots from the Rossi et al. (2021) ChIP-exo data mapped to 
-# annotated TSS and TES positions from Steinmetz et al. (2013). Additionally, the data is plotted over
+# annotated TSS and TES positions from Pelechano et al. (2013). Additionally, the data is plotted over
 # two sets of gene quartile lists. One is a proxy of expression, ranked by Rpb3 occupancy around the TSS
 # (performed by myself), and the other is a gene list ranked by length. 
 #
