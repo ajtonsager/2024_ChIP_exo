@@ -39,6 +39,7 @@ As specified in the bash script, this pipeline will produce a new folder titled 
   │       ├── Length_quartiles.txt                      <- Text file containing TSS annotations ranked into quartiles by gene length.
   |       ├── Pelechano.2013_mRNA.gtf                   <- GTF annotation file containing TSS annotations from Pelechano et al. 2013
   |       ├── Rpb3_quartiles.txt                        <- Text file containing TSS annotations ranked into quartiles by Rpb3 occupancy.
+  |       ├── sacCer3.chrom.sizes                       <- Text file containing the size of each chromosome in the sacCer3 annotation.
   |
   │   └── [factor name]/                           <- Folder created with the name inputted at the command line
   │       ├── year-month-day_output                     <- Folder created with the date the analysis was run
