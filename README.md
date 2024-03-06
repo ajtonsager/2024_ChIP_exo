@@ -16,8 +16,7 @@ The bash script requires the bam file for a factor of interest to already be dow
 1. Search for each factor with the search bar
 2. Left click on "META DATA"
 3. **Right** click on the direct download arrow, and selecting "Copy link address"
-4. In your terminal, use `wget` to download the data to your working directory
-An example of the link for a replicate from Spn1 is shown below:
+4. In your terminal, use `wget` to download the data to your working directory. An example of the link for a replicate from Spn1 is shown below:
 ```
 wget https://www.datacommons.psu.edu/download/eberly/pughlab/yeast-epigenome-project/12107_YEP.zip
 ```
