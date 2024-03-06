@@ -78,3 +78,4 @@ Once the bash script is downloaded to the unzipped folder containing the input .
 ```
 bash DT-ChIP-exo.sh <factor name>
 ```
+Details on how each line of the code works is annotated within the `DT-ChIP-exo.sh` script.
