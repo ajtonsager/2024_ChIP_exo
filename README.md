@@ -14,8 +14,8 @@ conda install bioconda::ucsc-bedgraphtobigwig
 ### Obtain metadata from ChIP-exo data on yeastepigenome.org
 The bash script requires the bam file for a factor of interest to already be downloaded to your working directory. I obtained all data from [yeastepigenome.org](http://yeastepigenome.org/) using the following steps:
 1. Search for each factor with the search bar
-2. Left click on meta data
-3. **Right** clicking on the direct download arrow, and selecting "Copy link address"
+2. Left click on "META DATA"
+3. **Right** click on the direct download arrow, and selecting "Copy link address"
 4. In your terminal, use `wget` to download the data to your working directory
 An example of the link for a replicate from Spn1 is shown below:
 ```
@@ -74,3 +74,7 @@ image="png"
 ```
 
 ## 4. Usage
+Once the bash script is downloaded to the unzipped folder containing the input .bam file for your factor of interest, simply run the following with the corresponding [factor name]:
+```
+bash DT-ChIP-exo.sh <factor name>
+```
